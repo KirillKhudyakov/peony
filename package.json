@@ -1,0 +1,19 @@
+{
+  "name": "peony",
+  "version": "1.0.0",
+  "description": "Landing page of Peony beauty studio",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KirillKhudyakov/peony.git"
+  },
+  "author": "Kirill Khudyakov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KirillKhudyakov/peony/issues"
+  },
+  "homepage": "https://github.com/KirillKhudyakov/peony#readme"
+}
