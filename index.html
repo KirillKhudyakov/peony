@@ -7,6 +7,8 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
 
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
     <link rel="stylesheet" href="css/styles.css">
 
     <title>Peony</title>
@@ -14,18 +16,138 @@
 
 <body>
 
-<header class="jumbotron">
-    <header class="container">
-        <div class="row">
-            <div class="col">
+<nav class="navbar navbar-light fixed-top">
+    <button class="navbar-toggler ml-auto" type="button" data-toggle="modal" data-target="#navModal">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+</nav>
+
+<div class="modal fade pr-0" id="navModal" role="dialog">
+    <div class="modal-dialog bg-white">
+        <div class="modal-content border-0">
+            <div class="modal-header border-0 pr-sm-5">
+                <button type="button" class="close" data-dismiss="modal" aria-label="close">
+                    <i class="fa fa-times-circle fa-lg"></i>
+                </button>
+            </div>
+            <div class="modal-body pt-0">
+                <ul class="navbar-nav text-center font-weight-bold">
+                    <li class="nav-item"><a class="nav-link text-dark" href="#">Философия Peony</a></li>
+                    <li class="nav-item"><a class="nav-link text-dark" href="#">Парикмахерский зал</a></li>
+                    <li class="nav-item"><a class="nav-link text-dark" href="#">Как добраться</a></li>
+                </ul>
+            </div>
+            <div class="modal-footer justify-content-center border-0">
+                <a class="btn btn-social-icon btn-lg btn-social-round" href="#"><i class="fa fa-facebook"></i></a>
+                <a class="btn btn-social-icon btn-lg btn-social-round" href="#"><i class="fa fa-instagram"></i></a>
+                <a class="btn btn-social-icon btn-lg btn-social-round" href="#"><i class="fa fa-vk"></i></a>
             </div>
         </div>
-    </header>
+    </div>
+</div>
+
+<header class="jumbotron">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center">
+                <img src="img/logo.png" alt="logo">
+                <h1 class="mt-5">Студия красоты</h1>
+                <h3 class="mt-4">Режим работы<br>
+                    Пн-Вс 10:00 - до последнего клиента
+                </h3>
+            </div>
+        </div>
+    </div>
 </header>
+
+<div class="container">
+
+    <div class="row">
+        <div class="col col-sm-10">
+            <p class="text-uppercase">Философия Peony</p>
+            <h2>«Ничего не делает женщину более красивой, чем вера в то, что она красива».</h2>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <h6 class="text-uppercase">Парикмахерский зал</h6>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col col-sm-5">
+            <img src="img/hall.jpg" alt="Зал">
+        </div>
+        <div class="col col-sm-5 text-center">
+            <div class="row h-50">
+                <div class="col pt-5">
+                    <h5>
+                        Стрижка - это бла-бла, бла-бла<br>
+                        а еще мы юзаем охуенные<br>
+                        шампуни и кондеры.
+                    </h5>
+                </div>
+            </div>
+            <div class="row h-50 pt-5">
+                <div class="col">
+                    <h5>
+                        У нас есть мужицй и бабский зал.
+                    </h5>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row text-center">
+        <div class="col">
+            <h2>Где находится студия красоты Peony</h2>
+            <div class="row justify-content-between pb-0">
+                <div class="col-12 col-sm-3">
+                    <div class="card">
+                        <!-- <img class="card-img-top"> -->
+                        <div class="card-body">
+                            <h4 class="card-title">Свяжитесь с нами</h4>
+                            <p class="card-text">+7 999 999 1488</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-3">
+                    <div class="card">
+                        <!-- <img class="card-img-top"> -->
+                        <div class="card-body">
+                            <h4 class="card-title">Адрес</h4>
+                            <p class="card-text">Яузская ул., д. 5, Москва, Россия</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-3">
+                    <div class="card">
+                        <!-- <img class="card-img-top"> -->
+                        <div class="card-body">
+                            <h4 class="card-title">Как добраться</h4>
+                            <p class="card-text">Мы расположены в центре города. Около салона есть парковка, ближайшее метро «Китай-город».</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row justify-content-around">
+        <div class="col-12 col-sm-9">
+            <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Af77b4d1221a9df2ad1cd6ecec8cb8856be736c8c5f26f4958bec45956ba2b6dc&amp;width=100%25&amp;height=500&amp;lang=ru_RU&amp;scroll=true"></script>
+        </div>
+    </div>
+</div>
 
 <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
 <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
 <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
 </body>
 
 </html>

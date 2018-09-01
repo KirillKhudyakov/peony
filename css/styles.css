@@ -1,0 +1,16 @@
+header {
+  height: 600px; }
+  header img {
+    max-width: 200px; }
+
+.container {
+  height: 100vh; }
+
+.modal-dialog {
+  margin: 0;
+  max-width: 100%; }
+
+.btn-social-round {
+  color: white;
+  background: black;
+  border-radius: 30px; }
